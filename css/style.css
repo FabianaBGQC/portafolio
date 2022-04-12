@@ -1,0 +1,81 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.692)), url(../img/f1.jpg);
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center center;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #1cd0dd;
+  transition: 0.5s ease;
+}
+
+/* Main Container height*/
+.main-container {
+  height: 100vh;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  border-radius: 50%;
+   width: 300px;
+}
+#sobrem{
+  padding-top: 12%;
+}
+
+/* About Section */
+.about {
+  background: #0c2a3a;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-bottom: 8px solid #1cd0dd;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #0c2a3a;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #1cd0dd;
+  border-radius: 0.5rem;
+}

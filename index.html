@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
+
+  <title>Portafolio</title>
+  <link rel="icon" href="img/programador.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <div class="col-6 d-flex justify-content-start align-items-center">
+            <img class="logo" src="img/logo.png" alt="Portafolio">
+          </div>
+            <button class="navbar-toggler bg-white" data-toggle="collapse" data-target="#miLista">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="miLista">
+                <ul class="navbar-nav">
+                    <li class="nav-item mb-3">
+                        <a class="nav-link text-white navigation-link" href="#">Principal</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link text-white navigation-link" href="#row-cursos">Tendencia</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link text-white navigation-link" href="#row-nosotros">Galeria</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link text-white navigation-link" href="#row-servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link text-white navigation-link" href="#row-contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  <!-- PRINCIPAL -->
+  <br><br><br><div class="main-container container">
+    <div class="row main_row">
+      <div class="col-6">
+        <h2 class="text-white">Bienvenido! mi nombre es</h2>
+        <h1 class="text-info m-heading">Fabiana Quintana</h1>
+        <h2 class="text-white">Y este es mi Portafolio Web</h2>
+      </div>
+      <div class="col-6">
+        <img id="imgm" src="img/mia.jpg" class="img-fluid" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ACERCA DE MI-->
+  <div id="about" class="container about p-5">
+    <div class="row">
+      <div class="col-6">
+        <img id="sobrem" src="./img/sobre.png" class="img-fluid" />
+      </div>
+      <div class="col-6 pl-5 pt-5 pb-5 text-white">
+        <h3 class="text-info">Acerca de mi</h3>
+        <h1 class="m-heading">Un poco acerca de mi</h1>
+        <p>
+          Tengo 20 años y soy estudiante del noveno trimestre de la carrera 
+          <b class="text-info">Ingeniería en Informatica.</b> Soy fanática de la programación y de las nuevas tecnologias. Me considero una persona cooperativa, curiosa y con ganas de aprender y de mejorar.
+        </p>
+        <br />
+        <h1 class="m-heading">Habilidades</h1>
+        <li>Conocimiento de redes</li>
+        <li>Bases de datos</li>
+        <li>Resolución de problemas</li>
+        <li>Atención al usuario</li>
+        <li>Dominio del estrés Java,JavaScrip, C+, C#</li>
+          
+        
+          
+          
+      </div>
+    </div>
+  </div>
+
+  <!-- PROYECTOS -->
+  <div id="projects" class="container mt-5 pt-5">
+    <h1 class="text-info mb-3 pb-2">Proyectos</h1>
+    <div class="row">
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pj.jpg" class="card-img-top" style="height: 13rem;" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              FightGame
+            </h5>
+            <p class="card-text">
+              Es una página de juegos donde encontrarás una enorme colección de ilustraciones y artículos, desde las biografías de tus campeones favoritos o descripciones de las regiones.
+            </p><br><br>
+            <a href="https://musing-pare-404495.netlify.app/" class="btn btn-info">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ps.jpg" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">SoundNight</h5>
+            <p class="card-text">
+              Es una nueva página web de música que funciona como un directorio de consulta en el que los usuarios pueden ver todo lo más top del momento, además de mostrar la opcion de descargar dicha app.
+            </p><br>
+            <a href="https://ecstatic-elion-aa76bd.netlify.app/" class="btn btn-info">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pm.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">Pagina Materialize</h5>
+            <p class="card-text">
+              Es una pagina de prueba usando Materialize siendo este un framework CSS responsive basado en Material Design. De ahí que permita que el usuario cuente con los estilos posibles para posteriormente poder integrarlos a desarrollos personalizados. 
+            </p>
+            <a href="https://boisterous-mousse-674785.netlify.app/" class="btn btn-info">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pc.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">Pagina de Criptos</h5>
+            <p class="card-text">
+              Esta página permite el intercambio de valor en la forma de criptomonedas. Este valor pueden ser contratos, propiedad intelectual, acciones o en general cualquier propiedad de algo que tenga valor.
+            </p><br>
+            <a href="https://tranquil-selkie-8ef664.netlify.app/index.html" class="btn btn-info">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pmo.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">Página de modas</h5>
+            <p class="card-text">
+              Esta página tiene contenido para vender moda la cual puedes crear para conecttar con tú público y conseguir que te compren. La moda ocupa un papel muy importante en la sociedad, puesto que no sólo permite a las personas definir su propio estilo.
+            </p>
+            <a href="https://vocal-sherbet-0d260e.netlify.app/" class="btn btn-info">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/wc.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">
+              WebConvert
+            </h5>
+            <p class="card-text">
+             Es una pagina convertidor de archivos que alude al proceso de transformación de datos informáticos de una representación concreta a otra, cambiando los bits de un formato de archivo formato a otro.
+            </p><br>
+            <a href="https://web--convert.000webhostapp.com/app/Login-webconvert/index.php" class="btn btn-info">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACTOS-->
+  <div id="social-media" class="container-fluid">
+    <div class="container text-white py-5">
+      <h4 class="text-info">Contactos</h4>
+      <h1 class="m-heading">Para contactarme ingresa a:</h1>
+      <div class="row pt-5 align-items-center justify-content-center">
+
+        <div class="col-6 media_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white">Github</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-github fa-2x text-secondary"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 media_link btn ">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white">Email</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fas fa-envelope fa-2x text-secondary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-muted text-center py-3 mt-5">
+      <h5>
+        Fabiana Quintana &copy; 2022 |
+        <a class="text-info text-decoration-none" href="#about">Diseño de Paginas Web</a>
+      </h5>
+    </div>
+  </footer>
+</body>
+
+</html>
